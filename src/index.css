@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button{
+  @apply bg-green-500 text-white px-3 py-2 rounded-sm;
+}
+
+input{
+  @apply border border-green-500 focus:ring-4 focus:ring-opacity-20 focus:ring-green-500 p-3;
+}
